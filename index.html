@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  input {
+    padding: 6px;
+    border: 1px solid#dddddd;
+    width: 50%;
+    margin-left: 22%;
+    border-radius: 5px;
+  }
+
+  form input:focus {
+    border: 4px solid orange;
+    outline: none;
+
+  }
+
+  button {
+    background-color: orange;
+    border: none;
+    font-size: 20px;
+    border-radius: 0 6px 6px 0;
+
+  }
+
+  .div,
+  select {
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-bottom: 20%;
+  }
+
+  select,
+  option {
+    width: 35px;
+    height: 20px;
+    background-color: rgb(227, 227, 227);
+    color: black;
+    font-size: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+      'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 6px 0 0 6px;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  img {
+    margin-left: 35%;
+    height: 28px;
+    margin-top: 5%;
+
+  }
+
+  form {
+    border: 3px solid #f1f1f1;
+    width: 100%;
+    padding: 20px 26px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 350px;
+    height: 300px;
+    margin-left: 20%;
+    position: relative;
+  }
+
+  h2 {
+    font-weight: lighter;
+    font-size: 28px;
+    text-align: justify;
+  }
+
+  h4 {
+    font-size: 13px;
+    text-align: justify;
+  }
+
+  input {
+    background-color: #fff;
+    height: 21px;
+    padding: 3px 7px;
+    line-height: normal;
+    width: 78%;
+    margin-left: 0;
+    margin-bottom: 15px;
+    display: block;
+
+  }
+
+  input:focus {
+    outline: 1px solid orange;
+  }
+
+  button {
+    width: 250px;
+    padding: 5px;
+    border: 1px solid #dddddd;
+    background-color: rgb(248, 197, 101);
+    border: 1px solid #a6a6a6;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgb(255 255 255);
+    text-align: center;
+    display: block;
+    margin-top: 5%;
+  }
+
+  button:hover {
+    background-color: rgb(251, 189, 74);
+    opacity: 0.15s;
+  }
+
+  a {
+    color: rgb(44, 143, 237);
+    font-size: 10px;
+  }
+
+  p {
+    font-size: 10px;
+  }
+
+  .anchor {
+    margin-top: 100%;
+  }
+
+  .amzn {
+    text-align: center;
+    color: #a6a6a6;
+    margin-left: 40%;
+    text-decoration: line-through solid grey;
+    position: fixed;
+  }
+
+  .img {
+    height: 5px;
+    position: relative;
+    margin: 0;
+  }
+
+  .under {
+    background-color: #e5e5e5;
+    position: relative;
+    margin: 5% 0;
+    margin-left: 28%;
+  }
+
+  .under:hover {
+    background-color: #d3d3d3;
+    opacity: 0.15s;
+    transition-duration: 0.4s;
+  }
+
+  .a2 {
+    margin-left: 35%;
+    position: relative;
+  }
+
+  .copyright {
+    margin-left: 32%;
+    color: #545454;
+    font-weight: lighter;
+    position: relative;
+  }
+</style>
+
+<body>
+  <!-- <form>
+    <div>
+      <input type="text" name="text" placeholder="Search Amazon.sa" required>
+      <button type="submit"><i class="fa fa-search"></i></button>
+      <select name="All" id="">All
+        <option value="All">All</option>
+        <option value="all categories">All Categories</option>
+        <option value="amazon devices">Amazon Devices</option>
+        <option value="amazon fashion">Amazon Fashion</option>
+        <option value="amazon global store">Amazon Global Store</option>
+        <option value="amazon warehouse">Amazon Warehouse</option>
+        <option value="appliances">Appliances</option>
+        <option value="arts,crafts & sewing">Arts, Crafts & Sewing</option>
+        <option value="automotive parts & accessories">Automotive Parts & Accessories</option>
+        <option value="baby">Baby</option>
+        <option value="beauty & personal care">Beauty & Personal Care</option>
+        <option value="books">Books</option>
+        <option value="electronics">Electronics</option>
+        <option value="gift cards">Gift Cards</option>
+        <option value="grocery & gourment food">Grocery & Gourment Food</option>
+        <option value="health, household & baby care">Heaith, Household & Baby Care</option>
+        <option value="home & garden">Home & Garden</option>
+        <option value="home related">Home Related</option>
+        <option value="industrial & scientific">Industrial & Scientific</option>
+        <option value="kitchen & dining">Kitchen & Dining</option>
+        <option value="musical insruments">Musical Instruments</option>
+        <option value="office products">Office Products</option>
+        <option value="pet supplies">Pet Supplies</option>
+        <option value="prime video">Prime Video</option>
+        <option value="sports">Sports</option>
+        <option value="tools & home improvement">Tools & Home Improvement</option>
+        <option value="toys & games">Toys & Games</option>
+        <option value="video games">Video Games</option>
+      </select>
+    </div>
+  </form>
+  </header> -->
+  <img src="/assets/images/Amazon.com-Logo.svg.png" alt="">
+  <form class="f1">
+    <h2>Sign in</h2>
+    <h4>Email or mobile phone number</h4>
+    <input type="text" required>
+    <button>Continue</button>
+    <p class="para">By continuing, you agree to Amazon's
+      <a href="">Conditions of Use</a>
+      and
+    </p>
+    <a href="">Privacy Notice</a>
+    <br><br>
+    <img class="img" src="/assets/images/645-6456893_right-side-bar-touch-arrow-comments-black-play.png" alt="">
+    <a href="">Need help ?</a>
+
+  </form>
+
+  <div>
+    <p class="amzn">New to Amazon?</p>
+  </div>
+  <br>
+  <div>
+    <button class="under">Create your Amazon account</button>
+  </div>
+  <br><br><br>
+  <br>
+  <div class="a2">
+    <a href="">Conditions of Use</a>
+    <a href="">Privacy Notice</a>
+    <a href="">Help</a>
+  </div>
+
+  <p class="copyright">&copy; 1996-2023, Amazon.com, Inc. or its affiliates</p>
+
+</body>
+
+</html>
